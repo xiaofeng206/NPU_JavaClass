@@ -1,2 +1,2 @@
-# Homework0303
+# NPU Java Class Data
 Java class
