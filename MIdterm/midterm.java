@@ -79,6 +79,7 @@ public class midterm {
             new Student("Mack", 99)
         };
 
+        System.out.println("Answer8 Student names and scores:");
         for (int i = 0; i < students8.length; i++) {
             System.out.println((i + 1) + "." + students8[i].name + " scores:" + students8[i].score);
         }
@@ -86,9 +87,11 @@ public class midterm {
 
         //9.更新學生分數
         Student ethan = new Student("Ethan", 59);
+        System.out.println("Answer9 Before update:");
         System.out.println("Ethan scores:" + ethan.score);
         updateScore(ethan, 65);
-        System.out.println("after update scores:" + ethan.score);
+        System.out.println("Answer9 After update:");
+        System.out.println("Ethan scores:" + ethan.score);
         System.out.println();
 
         //10.找出最小值
@@ -99,8 +102,9 @@ public class midterm {
                 minIndex = i;
             }
         }
-        System.out.println("Answer10 The minimum index is: " + minIndex);
-        System.out.println("Answer10 The minimum value is: " + findMin[minIndex]);
+        System.out.println("Answer10");
+        System.out.println("The minimum index is: " + minIndex);
+        System.out.println("The minimum value is: " + findMin[minIndex]);
     }
 
 //=========================================================================================
